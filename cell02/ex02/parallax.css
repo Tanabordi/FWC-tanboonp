@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.parallax-1 {
+    background-image: url('https://i.pinimg.com/1200x/21/ca/75/21ca75bfefa66fe69be52eba4052103c.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url('https://i.pinimg.com/736x/ea/33/dd/ea33ddc516e4429150778c6582c9fe86.jpg');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.black-block {
+    background-color: black;
+    min-height: 50vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-white {
+    color: white;
+}
